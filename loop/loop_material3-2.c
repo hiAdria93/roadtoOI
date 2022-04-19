@@ -1,4 +1,4 @@
-//
+////ab兩正整數中整除3的所有數加總
 #include <stdio.h>
 #include <stdlib.h>
 
