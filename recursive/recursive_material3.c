@@ -38,5 +38,11 @@ int combine(int a, int b){
   if(a==2&&b==1){
     return 2;
   }
+  if(a<b||b<0){
+    return -1;
+  }
+  if(a==b||b==0){
+    return 1;
+  }
   return combine(a-1,b)+combine(a-1,b-1);
 }
