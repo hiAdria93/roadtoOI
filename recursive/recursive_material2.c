@@ -13,7 +13,7 @@ int main(int argc, const char * argv[]){
   return 0;
 }
 
-int feibo(int a){
+int feibo(register int a){
   if((a==1)||(a==2)){
     return 1;
   }
