@@ -1,3 +1,4 @@
+//終極密碼
 #include<stdio.h>
 #include<stdlib.h>
 
