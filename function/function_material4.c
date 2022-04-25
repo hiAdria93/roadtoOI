@@ -24,7 +24,8 @@ int main(int argc, const char*argv[]){
       printf("within %d, sol: %d",i,rm);
       return 0;
     }
-    printf("%d remaining",10-i);
+    printf("%d remaining\n",10-i);
+    printf("%d ~ %d\n",small,big);
   }
   if(big!=rm&&small!=rm){
     printf("sol is %d, your last guess is %d",rm,guess);
