@@ -1,6 +1,7 @@
 //終極密碼
 #include<stdio.h>
 #include<stdlib.h>
+srand(time(NULL));
 
 int main(int argc, const char*argv[]){
   int i,guess,big=1000,small=1,rm=rand()%1000;
