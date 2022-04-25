@@ -1,3 +1,4 @@
+//河內塔算最佳步數
 #include <stdio.h>
 #include <stdlib.h>
 int hanoi(int);
