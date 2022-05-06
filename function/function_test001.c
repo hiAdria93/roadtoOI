@@ -1,8 +1,6 @@
 //預期結果
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
-
 void func1(void);
 void func2(int);
 int x=0;
@@ -23,5 +21,5 @@ void func1(void){
 
 void func2(int x){
   x++;
-  printf("%d\n"x);
+  printf("%d\n",x);
 }
