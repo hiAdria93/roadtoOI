@@ -1,7 +1,7 @@
 //學生成績系統
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
+
 
 int main(int argc,const char * argv[]){
   int score[10],i,sum=0;
